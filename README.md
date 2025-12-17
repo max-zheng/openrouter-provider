@@ -1,13 +1,13 @@
 # openrouter-provider
 
-Type definitions for the [OpenRouter Provider API](https://openrouter.ai/docs/guides/for-providers).
+Type definitions for the [OpenRouter Provider API](https://openrouter.ai/docs/guides/guides/for-providers). The types are kept 1:1 with the spec for the `List Models Endpoint` which is required to be implemented by any model provider who wants to sell inference on OpenRouter.
 
 ```toml
 [dependencies]
 openrouter-provider = "0.1"
 ```
 
-Example
+Usage example:
 
 ```rust
 use openrouter_provider::{
