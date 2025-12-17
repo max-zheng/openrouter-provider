@@ -3,10 +3,6 @@ name: PR
 on:
   pull_request:
     branches: [main]
-    paths:
-      - "Cargo.toml"
-      - "Cargo.lock"
-      - "**/*.rs"
 
 env:
   CARGO_TERM_COLOR: always
