@@ -7,6 +7,8 @@ Type definitions for the [OpenRouter Provider API](https://openrouter.ai/docs/gu
 openrouter-provider = "0.1"
 ```
 
+Example
+
 ```rust
 use openrouter_provider::{
     ListModelsResponse, Model, Pricing, InputModality, OutputModality, Quantization
