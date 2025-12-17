@@ -1,6 +1,6 @@
 [package]
 name = "openrouter-provider"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Max Zheng"]
 description = "Type definitions for the OpenRouter Provider API contract (https://openrouter.ai/docs/guides/for-providers)"
