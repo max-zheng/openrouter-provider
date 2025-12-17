@@ -1,11 +1,11 @@
 [package]
 name = "openrouter-provider"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Max Zheng"]
 description = "Type definitions for the OpenRouter Provider API contract (https://openrouter.ai/docs/guides/for-providers)"
 license = "MIT"
-repository = "https://github.com/max-zheng/openrouter-provider"
+repository = "https://github.com/perceptron-ai-inc/openrouter-provider"
 documentation = "https://docs.rs/openrouter-provider"
 readme = "README.md"
 keywords = ["openrouter", "ai", "llm", "provider", "api"]
