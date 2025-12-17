@@ -1,0 +1,19 @@
+[package]
+name = "openrouter-provider"
+version = "0.1.0"
+edition = "2021"
+authors = ["Max Zheng"]
+description = "Type definitions for the OpenRouter Provider API contract (https://openrouter.ai/docs/guides/for-providers)"
+license = "MIT"
+repository = "https://github.com/max-zheng/openrouter-provider"
+documentation = "https://docs.rs/openrouter-provider"
+readme = "README.md"
+keywords = ["openrouter", "ai", "llm", "provider", "api"]
+categories = ["data-structures"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+serde_json = "1.0"
